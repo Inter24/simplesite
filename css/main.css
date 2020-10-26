@@ -16,4 +16,18 @@ h4 {
 
 img {
     border:1px solid #000;
+    max-width: 400px;
+    width: 100%;
+}
+
+@media (max-width:990px) {
+    .d-flex {
+        display:block!important;
+    }
+    .p-2 {
+        padding: .0rem!important;
+    }
+    #preview-fullname {
+        margin-top:20px;
+    }
 }
